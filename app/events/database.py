@@ -1,10 +1,9 @@
 from sqlalchemy import create_engine
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import sessionmaker
-import os
 
 DB_USERNAME = "postgres"
-DB_PASSWORD = os.getenv("PASSWORD")
+DB_PASSWORD = "asim9833"
 DB_HOST = "localhost"
 DB_NAME = "qyu"
 
